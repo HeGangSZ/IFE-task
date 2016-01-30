@@ -1,0 +1,198 @@
+body{
+    min-width: 980px;
+    margin: 0;
+}
+
+.main{
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+    position: relative;
+}
+
+.clearfix:after{clear:both;content:"\200B";display:block;height:0;}
+.clearfix{*zoom:1;}
+
+/*-----------header部分-----------*/
+
+#header{
+    height: 80px;
+    position: relative;
+    background-color: #522a5c;
+}
+#header p{
+    float: left;
+    margin-top: 48px;
+    font-size: 16px;
+    color: #fff;
+}
+#header ul{
+    float: right;
+    margin-top: 48px;
+}
+#header li{
+    float: left;
+    display: inline-block;
+    margin-left: 28px;
+}
+#header #nav a{
+    color: #fff;
+}
+#header #icon{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+
+/*-----------content部分-----------*/
+
+#content{
+    width: 100%;
+}
+
+/*-----------content head-pic部分-----------*/
+#head-pic{
+    height: 525px;
+    background: center url("../img/banner-bg.jpg");
+}
+#head-pic #title{
+    width: 360px;
+    padding: 10px 10px 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    background-image: linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.2) 25%,rgba(255,255,255,0));
+}
+#head-pic h1{
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+#head-pic p{
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*-----------content pic-wall部分-----------*/
+#pic-wall{
+    background-color: #eee;
+}
+#pic-wall .pic-parent{
+    overflow: hidden;
+    margin-bottom: 110px;
+}
+#pic-wall .pic{
+    margin-top: 10px;
+    float: left;
+    width: 320px;
+    background: #fff;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+#pic-wall #center{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#pic-wall img{
+    margin: 10px 10px 15px;
+}
+#pic-wall p{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 15px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+
+/*-----------content introduce部分-----------*/
+#introduce{
+    text-align: center;
+}
+#introduce img{
+    display: inline-block;
+    margin-top: -80px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#introduce h1{
+    font-family: "Century Gothic";
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#introduce p{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.8;
+    text-indent: 2em;
+    text-align: justify;
+    width: 600px;
+    margin-bottom: 190px;
+}
+
+/*-----------footer部分-----------*/
+#footer{
+    position: relative;
+    background-color: #000;
+    height: 395px;
+}
+#footer a{
+    color: #fff;
+}
+
+#footer #child-nav{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px #333 solid;
+}
+#footer #child-nav li{
+    margin-right: 25px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+#footer #foot-nav ul{
+    float: left;
+    width: 196px;
+}
+#footer #foot-nav li{
+    margin-bottom: 12px;
+    font-size: 10px;
+}
+#footer #foot-nav h1{
+    margin-bottom: 30px;
+    margin-top: 42px;
+    color: #ccc;
+    font-size: 12px;
+}
+
+#footer #foot-nav a:hover{
+    text-decoration: underline;
+}
+#footer #bottom-icon{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+#footer #bottom-icon h2{
+    text-align: center;
+    color: #fff;
+}
+
+#footer #bottom-icon a{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/*-----------响应式部分-----------*/
+@media screen and (max-width: 1080px){
+    #icon{
+        display: none;
+    }
+}

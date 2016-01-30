@@ -1,0 +1,210 @@
+body{
+    min-width: 980px;
+    margin: 0;
+}
+
+.main{
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+    position: relative;
+}
+
+.clearfix:after{clear:both;content:"\200B";display:block;height:0;}
+.clearfix{*zoom:1;}
+
+/*-----------header部分-----------*/
+
+#header{
+    height: 80px;
+    position: relative;
+    background-color: #522a5c;
+}
+#header p{
+    float: left;
+    margin-top: 48px;
+    font-size: 16px;
+    color: #fff;
+}
+#header ul{
+    float: right;
+    margin-top: 48px;
+}
+#header li{
+    float: left;
+    display: inline-block;
+    margin-left: 28px;
+}
+#header #nav a{
+    color: #fff;
+}
+#header #icon{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+/*-----------content部分-----------*/
+#content{
+    background-color: #eee;
+    padding: 100px 0 25px 0;
+}
+#content .main{
+    background-color: #fff;
+    height: 1400px;
+}
+#content #vline{
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    width: 6px;
+    height: 100%;
+    background-color: #eee;
+    z-index: 1;
+}
+#content .center{
+    position: absolute;
+    left: 50%;
+}
+#content .border{
+    border: 3px solid #eee;
+    border-radius: 50%;
+}
+#content .view{
+    z-index: 2;
+}
+#content .avatar{
+    margin-left: -85px;
+    margin-top: -60px;
+    width: 160px;
+    height: 160px;
+    border: 5px solid #eee;
+}
+#content .m-pic{
+    margin-left: -53px;
+    width: 100px;
+    height: 100px;
+}
+#content .phone{
+    top: 270px;
+}
+#content .edu{
+    top: 490px;
+}
+#content .work{
+    top: 840px;
+}
+#content #year .time{
+    margin-left: -35px;
+    width: 60px;
+    height: 24px;
+    border-radius: 10px;
+    border: 5px solid #eee;
+    text-align: center;
+    line-height: 24px;
+    font-size: 9px;
+    background-color: #fff;
+}
+#content .first-t{
+    top: 625px;
+}
+#content .second-t{
+    top: 695px;
+}
+#content .third-t{
+    top: 765px;
+}
+#content .four-t{
+    top: 965px;
+}
+#content .five-t{
+    top: 1035px;
+}
+#content .position{
+    position: absolute;
+}
+#content #title{
+    position: relative;
+    left: 340px;
+    font-size: 20px;
+}
+#content .name{
+    top: 135px;
+}
+#content .connect{
+    top: 395px;
+}
+#content #introduce{
+    position: relative;
+    left: 560px;
+    width: 310px;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: justify;
+}
+#content #introduce .self{
+    text-indent: 2em;
+}
+
+    /*-----------footer部分-----------*/
+#footer{
+    position: relative;
+    background-color: #000;
+    height: 395px;
+}
+#footer a{
+    color: #fff;
+}
+
+#footer #child-nav{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px #333 solid;
+}
+#footer #child-nav li{
+    margin-right: 25px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+#footer #foot-nav ul{
+    float: left;
+    width: 196px;
+}
+#footer #foot-nav li{
+    margin-bottom: 12px;
+    font-size: 10px;
+}
+#footer #foot-nav h1{
+    margin-bottom: 30px;
+    margin-top: 42px;
+    color: #ccc;
+    font-size: 12px;
+}
+
+#footer #foot-nav a:hover{
+    text-decoration: underline;
+}
+#footer #bottom-icon{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+#footer #bottom-icon h2{
+    text-align: center;
+    color: #fff;
+}
+
+#footer #bottom-icon a{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/*-----------响应式部分-----------*/
+@media screen and (max-width: 1080px){
+    #icon{
+        display: none;
+    }
+}

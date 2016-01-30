@@ -1,0 +1,333 @@
+body{
+    min-width: 980px;
+    margin: 0;
+}
+
+.main{
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+    position: relative;
+}
+
+.clearfix:after{clear:both;content:"\200B";display:block;height:0;}
+.clearfix{*zoom:1;}
+
+/*-----------header部分-----------*/
+
+#header{
+    height: 80px;
+    position: relative;
+    background-color: #522a5c;
+}
+#header p{
+    float: left;
+    margin-top: 48px;
+    font-size: 16px;
+    color: #fff;
+}
+#header ul{
+    float: right;
+    margin-top: 48px;
+}
+#header li{
+    float: left;
+    display: inline-block;
+    margin-left: 28px;
+}
+#header #nav a{
+    color: #fff;
+}
+#header #icon{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+/*-----------content部分-----------*/
+#content{
+    width: 100%;
+    background-color: #eee;
+}
+#content .pic-flow {
+    margin-top: 20px;
+    margin-bottom: 330px;
+    position: relative;
+    float: left;
+    width: 710px;
+    margin-right: 10px;
+}
+#content .article{
+    margin-bottom: 10px;
+    padding: 24px 20px 62px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+#content .article h1{
+    font-size: 16px;
+    color: #a660b7;
+    font-weight: 600;
+    line-height: 2;
+}
+#content .article h2{
+    color: #666;
+    font-weight: 700;
+    line-height: 2;
+}
+#content .article p{
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+#content  .a-tag{
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    height: 80px;
+    width: 50px;
+    background-color: #a660b7;
+    color: #fff;
+}
+#content  .a-tag span{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#content  .a-tag .time{
+    background-color: #522a5c;
+}
+#content em{
+    position: absolute;
+    bottom: 16px;
+    right: 25px;
+    color: #999;
+}
+
+#content .pages{
+    text-align: center;
+}
+#content .pages li{
+    margin-left: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    background-color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+
+}
+#content .pages .page{
+    width: 70px;
+}
+#content .pages a{
+    display: block;
+}
+#content .pages a:hover{
+    background-color: #a660b7;
+    color: #fff;
+}
+
+
+#content .tools{
+    float: left;
+    width: 260px;
+}
+/*-----------content search部分-----------*/
+#content .tools .search{
+    padding: 20px 20px;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#content .search .search-box{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #eee;
+    background: url(../img/search.png) no-repeat 8px center;
+    box-sizing: border-box;
+}
+#content .search-box input{
+    float: left;
+    margin-left: 40px;
+    width: 120px;
+    border: none;
+    line-height: 38px;
+    font-size: 20px;
+}
+#content .search-box button{
+    float: right;
+    height: 100%;
+    width: 50px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: #fff;
+    background-color: #ddd;
+
+}
+#content .search-box button:hover{
+    background-color: #999;
+}
+#content .lists {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+#content .lists li{
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+#content .lists a{
+    display: block;
+    height: 100%;
+    border-left: 4px solid #dfc6e6;
+    font-size: 14px;
+    line-height: 50px;
+    text-indent: 2em;
+}
+#content .lists a:hover{
+    border-left: 4px solid #522a5c;
+}
+/*-----------content date部分-----------*/
+#content .date{
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+#content table{
+    margin: 0 auto;
+    width: 220px;
+    cursor: default;
+}
+#content caption{
+    text-align: center;
+    font-size: 18px;
+    color: #a660b7;
+    margin-bottom: 8px;
+}
+#content .left,.right{
+    float: left;
+}
+#content .right{
+    float: right;
+}
+#content span:hover{
+    background-color: #dddddd;
+    cursor: pointer;
+}
+#content th,#content tr{
+    line-height: 1.8;
+    border-bottom: 1px solid #ddd;
+}
+#content th{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+#content td:hover{
+    color: #fff;
+    background-color: #a660b7;
+    cursor: pointer;
+}
+/*-----------content tags部分-----------*/
+#content .tags{
+    position: relative;
+    padding: 48px 16px 32px;
+    background-color: #fff;
+}
+
+#content .t-title{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#content .tag p{
+    display: inline-block;
+    color: #a660b7;
+    margin-right: 3px;
+}
+#content .big{
+    font-size: 18px;
+    font-weight: 700;
+}
+#content .middle{
+    font-size: 16px;
+    font-weight: 500;
+}
+#content .small{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+    /*-----------footer部分-----------*/
+#footer{
+    position: relative;
+    background-color: #000;
+    height: 395px;
+}
+#footer a{
+    color: #fff;
+}
+
+#footer #child-nav{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px #333 solid;
+}
+#footer #child-nav li{
+    margin-right: 25px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+#footer #foot-nav ul{
+    float: left;
+    width: 196px;
+}
+#footer #foot-nav li{
+    margin-bottom: 12px;
+    font-size: 10px;
+}
+#footer #foot-nav h1{
+    margin-bottom: 30px;
+    margin-top: 42px;
+    color: #ccc;
+    font-size: 12px;
+}
+
+#footer #foot-nav a:hover{
+    text-decoration: underline;
+}
+#footer #bottom-icon{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+#footer #bottom-icon h2{
+    text-align: center;
+    color: #fff;
+}
+
+#footer #bottom-icon a{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/*-----------响应式部分-----------*/
+@media screen and (max-width: 1080px){
+    #icon{
+        display: none;
+    }
+}
