@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE task0003</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">GTD Tools</div>
+        <div class="main" id="mainContent">
+            <div class="parent-select">
+                <h1 class="parent-layout clearfix">所有项目</h1>
+                <h2 class="parent-layout" id="lists">分类列表</h2>
+                    <div id="tasks">
+                    <ul class="files">
+                        <p class="parent-layout" id="defaultTask">默认任务<input class="cancel" type="button"></p>
+                        <li class="file parent-layout"  task="default"><span>任务1</span><input class="cancel" type="button"></li>
+                    </ul>
+
+                    </div>
+                <div class="add" >
+                    <label >
+                        <input class="add-task" type="button">
+                        <span id="add-one" >新增任务</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="child-select">
+                <form class="complete">
+                    <input id="all" type="button" value="所有">
+                    <input id="completed" type="button" value="已完成">
+                    <input id="doing" type="button" value="未完成">
+                </form>
+
+                <div class="to-do" id="taskLists">
+                    <ul task="default">
+                    </ul>
+
+
+                </div>
+
+
+                <div class="add">
+                    <label>
+                        <input class="add-task" id="add-two" type="button">
+                        <span>新增任务</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="content" id="contents">
+                <div class="title-layout">
+                    <form class="title" >
+                        <input id="task-title" type="text" value="task">
+                        <input class="pen" type="button">
+                        <input class="add-content" type="button">
+                        <span id="edit"></span>
+                    </form>
+                </div>
+
+                <form class="title-layout time">
+                    <p >任务日期:
+                        <input id="task-time" class="" type="text" value="2016-2-17">
+                    </p>
+                </form>
+
+                <div class="input">
+                    <textarea id="task-text">在此输入任务内容</textarea>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<script src="js/index.js"></script>
+</body>
+</html>

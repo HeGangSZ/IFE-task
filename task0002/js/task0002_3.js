@@ -116,7 +116,6 @@ function slide(para){
         },waitTime) ;   //正反向
     }
     function stop(){
-        console.log("enter")
         clearTimeout(itime)
     }
 
