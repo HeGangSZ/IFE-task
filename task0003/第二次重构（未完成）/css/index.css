@@ -1,0 +1,131 @@
+
+/*  layout  */
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.grid-wrapper{
+    height: 100%;
+    width: 100%;
+    min-width: 600px;
+
+}
+
+.grid-header{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-main{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+}
+
+.grid-list{
+    width: 200px;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    border-right: 1px solid #ccc;
+}
+
+.grid-content{
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.grid-listContent{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+    box-sizing: border-box;
+}
+
+.grid-addButton{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+}
+
+.grid-taskStatus{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-taskInfo{
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-descript{
+    position: absolute;
+    top: 140px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*样式*/
+.header{
+    font:25px/70px Arial;
+    font-weight: 700;
+    text-indent: 2em;
+    color: #999;
+    background-color: #ddd;
+}
+
+
+.parentList{
+    background-color: #f2f2f2;
+}
+#allTasks{
+    margin-top: 10px;
+    font: 16px/30px "微软雅黑";
+    text-indent: 20px;
+    cursor: pointer;
+}
+#allLists{
+    font: 16px/30px "微软雅黑";
+    text-indent: 20px;
+
+}
+.taskLists{
+    font: 16px/30px "微软雅黑";
+    text-indent: 20px;
+}
+.files{
+    cursor: pointer;
+}
+.file{
+    cursor: pointer;
+}
+
+.addButton{
+    background-color: #eee;
+    text-align: center;
+    font: 20px/50px "微软雅黑";
+    cursor: pointer;
+}
+.taskStatus{
+    background-color: #eee;
+}
+
